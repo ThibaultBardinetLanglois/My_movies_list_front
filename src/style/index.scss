@@ -1,0 +1,59 @@
+@import './font-style';
+@import './_variables.scss';
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-size: 1.6rem;
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+  background-color: $black;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-weight: 500;
+  color: $purple-dark;
+}
+
+h3 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: $purple-dark;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+button {
+  display: block;
+  background: linear-gradient(90deg, rgba(161,14,170,1) 40%, rgba(123,29,191,1) 100%);
+  outline: none;
+  border: none;
+  padding: 1.4rem;
+  border-radius: 15px;
+  font-size: 2.4rem;
+  color: $white;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(90deg, rgb(204, 14, 214) 40%, rgba(123,29,191,1) 100%);
+  }
+}

@@ -1,0 +1,12 @@
+.sliderItem {
+  min-width: 350px;
+  height: 200px;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  p {
+    font-size: 3.2rem;
+  }
+}
